@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavors & Recipes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            text-align: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .nav {
+            background-color: rgb(73, 47, 34);
+            padding: 20px;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+        }
+
+        a:hover {
+            color: #fccb24;
+        }
+
+        .body {
+            background: linear-gradient(0deg, rgb(240, 230, 255), #442816);
+        }
+
+        .hero {
+            text-align: center;
+            display: block;
+            margin: auto;
+            background: linear-gradient(0deg, #e2c66b, #fccb24) !important;
+            max-width: 1200px;
+            font-family: sans-serif;
+            border-radius: 10px;
+        }
+
+        .hero h1 {
+            padding: 20px;
+            color: #2c2c2e;
+        }
+
+        h2 {
+            font-family: lucida handwriting;
+        }
+
+        button {
+            padding: 10px;
+            width: auto;
+            font-size: 1.2rem;
+            border-radius: 7px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            background-color: #442816;
+            color: white;
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, .01) 100%);
+        }
+
+        button:hover {
+            transform: scale(1.02);
+        }
+
+        .main {
+            max-width: 1200px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            box-sizing: border-box;
+            margin: auto;
+            gap: 25px;
+        }
+
+        .rcp {
+            padding: 13px;
+            border-radius: 10px;
+            font-size: x-large;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            background-color: #c9a792;
+            margin-top: 25px;
+        }
+
+        .rcp:hover {
+            transform: scale(1.03);
+        }
+
+        img:hover {
+            box-shadow: 0 0 20px 15px #643416;
+            z-index: 0;
+        }
+
+        img {
+            width: 80%;
+            height: 80%;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            box-shadow: 0px 0px 20px 5px #a35c2f;
+            cursor: pointer;
+        }
+
+        p {
+            color: #2e2e33;
+            font-family: Garamond;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="WaffleVerse (Home).html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Recipes.html">Flavors & Recipes</a></li>
+                <li><a href="Subscriptions.html">Subscription Plans</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="Reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="body">
+        <div class="hero">
+            <h1 style="font-family: papyrus;">Our Recipes</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eaque atque numquam laborum corporis!
+                Officiis recusandae possimus fugit dolorum, illo iste!</p><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae natus neque voluptatibus impedit, quo
+                ipsam similique! Molestias repellat repudiandae, mollitia ullam blanditiis unde repellendus cupiditate
+                consectetur reiciendis.</p>
+            <a href="Subscriptions.html"><button>Subscribe</button></a>
+        </div>
+        <div class="main">
+            <div class="rcp">
+                <img src="img2.jpg" alt="Image">
+                <h2>Exotic Strawberry</h2>
+            </div>
+            <div class="rcp">
+                <img src="img3.jpg" alt="Image">
+                <h2>Frozen Chocolate</h2>
+            </div>
+            <div class="rcp">
+                <img src="img4.jpg" alt="Image">
+                <h2>Stuffed Nutella SPL</h2>
+            </div>
+            <div class="rcp">
+                <img src="img5.jpg" alt="Image">
+                <h2>Premium Honey</h2>
+            </div>
+            <div class="rcp">
+                <img src="img6.jpg" alt="Image">
+                <h2>Exotic Blueberry</h2>
+            </div>
+            <div class="rcp">
+                <img src="img7.jpg" alt="Image">
+                <h2>Limited Heart Shaped</h2>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
